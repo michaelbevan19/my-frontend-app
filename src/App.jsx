@@ -4,7 +4,7 @@ function App() {
   const [items, setItems] = useState([]);
   const [newName, setNewName] = useState("");
 
-  const API_BASE = "http://localhost:5000";
+  const API_BASE = "https://my-backend-app-g5ke.onrender.com";
 
   useEffect(() => {
     fetch(`${API_BASE}/api/items`)
